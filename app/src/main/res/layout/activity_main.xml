@@ -33,10 +33,208 @@
         android:id="@+id/txt_cat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Category"
+        android:text="Jurusan"
         android:textColor="@color/white"
         android:layout_marginTop="120dp"
         android:layout_marginStart="20dp"
         android:textSize="20sp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/blue_900"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/jurusanmbti" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/blue_900"
+        app:srcCompat="@drawable/jurusanif"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/blue_900"
+        app:srcCompat="@drawable/jurusantf"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="@color/blue_900"
+        app:srcCompat="@drawable/jurusandkv"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="@color/blue_900"
+        app:srcCompat="@drawable/jurusansi"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="@color/blue_900"
+        app:srcCompat="@drawable/jurusantk"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/blue_900"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/jurusandi" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="@color/blue_900"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/jurusante" />
+
+    <TextView
+        android:id="@+id/txt_pa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PA"
+        android:textColor="@color/white"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="230dp"
+        android:textSize="11dp"/>
+    <TextView
+        android:id="@+id/txt_ti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TI"
+        android:textColor="@color/white"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="230dp"
+        android:textSize="11dp"/>
+    <TextView
+        android:id="@+id/txt_if"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IF"
+        android:textColor="@color/white"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="230dp"
+        android:textSize="11dp"/>
+    <TextView
+        android:id="@+id/txt_di"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DI"
+        android:textColor="@color/white"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="230dp"
+        android:textSize="11dp"/>
+
+    <TextView
+        android:id="@+id/txt_ik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IK"
+        android:textColor="@color/white"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="320dp"
+        android:textSize="11dp"/>
+
+    <TextView
+        android:id="@+id/txt_si"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI"
+        android:textColor="@color/white"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="320dp"
+        android:textSize="11dp"/>
+
+    <TextView
+        android:id="@+id/txt_dkv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DKV"
+        android:textColor="@color/white"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="320dp"
+        android:textSize="11dp"/>
+
+    <TextView
+        android:id="@+id/txt_el"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EL"
+        android:textColor="@color/white"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="320dp"
+        android:textSize="11dp"/>
+
+    <ImageButton
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="675dp"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/home"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_lib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="670dp"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/briefcase"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="668dp"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/update"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="672dp"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/user"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 
 </RelativeLayout>
