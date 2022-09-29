@@ -3,6 +3,7 @@ package com.example.programbook;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageButton;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -25,5 +26,14 @@ public class StartActivity extends AppCompatActivity {
                 finish();
             }
         },5000);
+
+
+        // Intent Image Button
+        ImageButton logoAPP = findViewById(R.id.LogoButton);
+        logoAPP.setOnClickListener(view -> {
+            Intent intentLogo = new Intent(this, LoginActivity.class);
+
+            startActivity(intentLogo);
+        });
     }
 }
