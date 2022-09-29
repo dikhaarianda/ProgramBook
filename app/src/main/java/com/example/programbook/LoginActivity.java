@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
         username = findViewById(R.id.txt_login);
         login = findViewById(R.id.btn_login);
         login.setOnClickListener(view -> {
-            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            Intent intent = new Intent(this, MainActivity.class);
             String users = username.getText().toString();
             intent.putExtra("Username", users);
             startActivity(intent);
