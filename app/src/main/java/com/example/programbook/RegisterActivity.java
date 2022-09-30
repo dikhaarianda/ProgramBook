@@ -20,7 +20,7 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         db = new userDatabase(this);
-        CreateAcc = findViewById(R.id.btn_Register);
+        CreateAcc = findViewById(R.id.btn_regist);
         name = findViewById(R.id.txt_name);
         userName = findViewById(R.id.txt_user);
         email = findViewById(R.id.txt_email);

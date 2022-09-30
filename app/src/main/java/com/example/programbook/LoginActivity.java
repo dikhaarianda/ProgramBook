@@ -28,8 +28,8 @@ public class LoginActivity extends AppCompatActivity {
 
         Register = findViewById(R.id.textViewCreateAccount);
         Register.setOnClickListener(view -> {
-            Intent Intentregister = new Intent(this, RegisterActivity.class);
-            startActivity(Intentregister);
+            Intent intent_register = new Intent(this, RegisterActivity.class);
+            startActivity(intent_register);
         });
     }
 }
