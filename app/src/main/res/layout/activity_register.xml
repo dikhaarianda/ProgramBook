@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,134 +7,106 @@
     android:background="#096BFC"
     tools:context=".RegisterActivity">
 
-
     <ImageView
         android:id="@+id/img_vector"
-        android:layout_width="258dp"
+        android:layout_width="240dp"
         android:layout_height="220dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013"
-        app:srcCompat="@drawable/vector_logo" />
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/vector_logo"/>
 
     <TextView
         android:id="@+id/txt_register1"
-        android:layout_width="221dp"
+        android:layout_width="209dp"
         android:layout_height="186dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="7dp"
         android:fontFamily="@font/droid_sans_bold"
         android:text="Here’s your first step with us?"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="425dp"
-        android:layout_height="522dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="43dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_vector"
-        app:layout_constraintVertical_bias="0.448"
-        app:srcCompat="@drawable/shape_register" />
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        app:srcCompat="@drawable/shape_button" />
 
     <EditText
         android:id="@+id/txt_name"
-        android:layout_width="276dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="38dp"
-        android:layout_marginBottom="29dp"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="270dp"
         android:backgroundTint="@color/blue_900"
-        android:ems="10"
-        android:hint="Full Name"
+        android:hint="Name"
         android:inputType="textPersonName"
+        android:textColor="@color/blue_900"
         android:textColorHint="@color/blue_900"
-        app:layout_constraintBottom_toTopOf="@+id/txt_user"
-        app:layout_constraintTop_toBottomOf="@+id/txt_register1"
-        app:layout_constraintVertical_bias="0.521"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="60dp" />
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/txt_user"
-        android:layout_width="277dp"
+        android:layout_width="240dp"
         android:layout_height="48dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="340dp"
         android:backgroundTint="@color/blue_900"
-        android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
         android:textColorHint="@color/blue_900"
-        app:layout_constraintBottom_toTopOf="@+id/txt_email"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_register1"
-        app:layout_constraintVertical_bias="0.814" />
+        android:textSize="20sp"/>
 
+    <EditText
+        android:id="@+id/txt_telp"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="410dp"
+        android:backgroundTint="@color/blue_900"
+        android:hint="No.Telp"
+        android:inputType="number"
+        android:textColorHint="@color/blue_900"
+        android:textSize="20sp"/>
     <EditText
         android:id="@+id/txt_email"
-        android:layout_width="282dp"
+        android:layout_width="240dp"
         android:layout_height="48dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="480dp"
         android:backgroundTint="@color/blue_900"
-        android:ems="10"
         android:hint="Email"
-        android:inputType="textPersonName"
         android:textColorHint="@color/blue_900"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="60dp" />
-
+        android:textSize="20sp"/>
     <EditText
         android:id="@+id/txt_pass2"
-        android:layout_width="285dp"
+        android:layout_width="240dp"
         android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="550dp"
         android:backgroundTint="@color/blue_900"
-        android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         android:textColorHint="@color/blue_900"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="451dp" />
+        android:textSize="20sp"/>
 
     <Button
-        android:id="@+id/btn_Register"
-        android:layout_width="300dp"
+        android:id="@+id/btn_regist"
+        android:layout_width="240dp"
         android:layout_height="48dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginStart="80dp"
         android:width="150dp"
         android:background="@drawable/btn_shape"
-        android:text="Create Account"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="530dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="295dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="24dp"
-        android:text="I agree with the Terms and Conditions and Privacy Policy"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_Register"
-        app:layout_constraintVertical_bias="0.0" />
+        android:text="Register"
+        android:textColor="#FFFFFF" />
 
 
-</android.support.constraint.ConstraintLayout>
+
+
+
+</RelativeLayout>
